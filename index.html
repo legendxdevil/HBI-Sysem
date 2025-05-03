@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBI Bank Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HBI Bank Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="account.html">Accounts</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="loans.html">Loans</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+            <button id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+        </nav>
+    </header>
+    <main>
+      <div class="founder-container">
+        <div class="founder-photo">
+          <img src="IMG_1596.JPG" alt="Founder Photo" />
+          <div class="founder-caption">Mr.Harsh Soni</div>
+        </div>
+        <div class="founder-info">
+          <h1>About the Founder</h1>
+          <p>Mr. Harsh Soni is the visionary founder of HBI Bank, known for his dedication to financial innovation and customer-centric banking solutions. With a passion for excellence and a commitment to empowering communities, he has led HBI Bank to become a trusted name in the industry.</p>
+          <blockquote class="highlight-statement">“Empowering your financial future with trust, technology, and transparency.”</blockquote>
+          <p>Under his leadership, HBI Bank has pioneered digital transformation in banking, setting new standards for service and reliability.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Modals -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <a href="admin.html" class="floating-admin-btn" title="Admin Panel">Admin</a>
+    <script src="script.js"></script>
+</body>
+</html>

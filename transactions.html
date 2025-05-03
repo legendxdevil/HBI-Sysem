@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions | HBI Bank Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HBI Bank Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="account.html">Accounts</a></li>
+                <li><a href="transactions.html" class="active">Transactions</a></li>
+                <li><a href="loans.html">Loans</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+            
+            <button id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+        </nav>
+    </header>
+    <main>
+        <section id="transactions">
+            <h2>Transactions</h2>
+            <button id="depositBtn">Deposit Funds</button>
+            <button id="withdrawBtn">Withdraw Funds</button>
+            <div id="transactionsContainer"></div>
+        </section>
+    </main>
+    <div id="modal" class="modal hidden">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
